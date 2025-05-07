@@ -4,6 +4,7 @@ import BottomNavbar from "./components/BottomNavbar/BottomNavbar";
 import Home from "./pages/Home";
 import ContactPage from "./pages/Contact";
 import EducationPage from "./pages/Education";
+import ExperiencesPage from "./pages/Experiences";
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
         <Route path="" element={<Home />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/education" element={<EducationPage />} />
+        <Route path="/experiences" element={<ExperiencesPage />} />
       </Routes>
       <BottomNavbar />
     </BrowserRouter>
