@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import ContactPage from "./pages/Contact";
 import EducationPage from "./pages/Education";
 import ExperiencesPage from "./pages/Experiences";
+import ProjectsPage from "./pages/Projects";
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/education" element={<EducationPage />} />
         <Route path="/experiences" element={<ExperiencesPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
       <BottomNavbar />
     </BrowserRouter>
